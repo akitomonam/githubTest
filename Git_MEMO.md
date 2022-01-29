@@ -7,3 +7,19 @@
     - git status
 - ファイルの登録
     - git add
+### ローカルリポジトリをリモートリポジトリに登録
+まず，ローカルリポジトリに移動
+
+リモートリポジトリを追加
+```
+git remote add <remote name> <remote URL>
+```
+＊\<remote URL\>はベアリポジトリ
+カレントのブランチ名をbranch nameに変更
+```
+git branch -M <branch name>
+```
+リモートに現在のリポジトリをプッシュ
+```
+git push -u <remote name> <branch name>
+```
