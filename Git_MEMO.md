@@ -35,3 +35,8 @@ git branch -M <branch name>
 ```
 git push -u <remote name> <branch name>
 ```
+### 作業ブランチをメインブランチで最新化
+```
+git checkout branch_name
+git merge main
+```
