@@ -40,3 +40,7 @@ git push -u <remote name> <branch name>
 git checkout branch_name
 git merge main
 ```
+### 最終コミットの戻す
+```
+git reset --hard HEAD
+```
